@@ -1,0 +1,14 @@
+{
+    "name": "yee launcher",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#9c78ff",
+    "theme_color": "#9c78ff",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      }
+    ]
+  }

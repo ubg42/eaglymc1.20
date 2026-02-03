@@ -1,0 +1,106 @@
+@media screen and (orientation: portrait) and ((pointer:none) or (pointer:coarse)) {
+    * {
+        text-shadow: 9px 9px #4C4C4C !important;
+    }
+    .errorText {
+        display: none;
+    }
+    .container {
+        width: 90% !important;
+        height: 50% !important;
+    }
+    .container .launcher {
+        gap: 20px !important;
+    }
+    .container h1 {
+        font-size: 72px !important;
+        margin-bottom: 24px !important;
+    }
+    .container h1 img {
+        width: 72px !important;
+        height: 72px !important;
+        transform: translateY(12px) !important;
+    }
+    .settings-inner img {
+        width: 64px !important;
+        height: 64px !important;
+        transform: translateY(12px) !important;
+    }
+    .container h1 img:hover {
+        filter:
+            drop-shadow(1px 0 0 black)
+            drop-shadow(-1px 0 0 black)
+            drop-shadow(0 1px 0 black)
+            drop-shadow(0 -1px 0 black);
+    }
+    
+    .settings-inner img:hover {
+        filter:
+            drop-shadow(2px 0 0 black)
+            drop-shadow(-2px 0 0 black)
+            drop-shadow(0 2px 0 black)
+            drop-shadow(0 -2px 0 black);
+    }
+    .pwa-container, .settings-inner {
+        width: 88% !important;
+        max-width: none !important;
+    }
+    .pwa-container h2, .settings-container h2, .settings-container label {
+        text-shadow: none !important;
+        font-size: 48px !important;
+    }
+    .settings-container label {
+        font-size: 38px !important;
+    }
+    .settings-container input {
+        transform: scale(3) translate(-4px, -3px) !important;
+    }
+    .pwa-container button {
+        font-size: 64px !important;
+        width: 300px !important;
+        margin: 0 16px !important;
+    }
+    .mobileOffline {
+        color: red !important;
+        text-shadow: 9px 9px #640000 !important;
+    }
+    .container button {
+        font-size: 64px !important;
+    }
+    .linksButton {
+        display: none !important;
+    }
+    button {
+        border-width: 9px !important;
+        border-bottom-width: 12px !important;
+        outline-width: 6px !important;
+    }
+    button::before {
+        bottom: -12px !important;
+        left: -9px !important;
+        width: 9px !important;
+        height: 12px !important;
+    }
+    button::after {
+        top: -9px !important;
+        right: -9px !important;
+        width: 9px !important;
+        height: 9px !important;
+    }
+    .errorContainer {
+        width: 90% !important;
+    }
+    .errorContainer h1 {
+        font-size: 72px !important;
+    }
+    .errorContainer h2 {
+        font-size: 48px;
+    }
+    .errorContainer button {
+        font-size: 48px !important;
+        text-shadow: 6px 6px #4C4C4C !important;
+    }
+    .downloads-offline {
+        display: none !important;
+    }
+}

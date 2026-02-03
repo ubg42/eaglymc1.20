@@ -1,0 +1,382 @@
+{
+    "1.8js": {
+        "name": "1.8.8",
+        "disabled-userscripts": [
+            "mobile"
+        ]
+    },
+    "1.8wasm": {
+        "name": "1.8.8 WASM",
+        "disabled-userscripts": [
+            "mobile"
+        ]
+    },
+    "1.12js": "1.12.2",
+    "1.12wasm": "1.12.2 WASM",
+    "1.5": "1.5.2",
+    "1.6.4": "1.6.4",
+    "1.2.5": "1.2.5",
+    "b1.7.3": "Beta 1.7.3",
+    "b1.4": "Beta 1.4",
+    "b1.3": "Beta 1.3",
+    "b1.1": "Beta 1.1",
+    "a1.2.6": "Alpha 1.2.6",
+    "a1.1.2js": "Alpha 1.1.2",
+    "a1.0.6js": "Alpha 1.0.6",
+    "infjs": "Infdev",
+    "infwasm": "Infdev WASM",
+    "idv": "Indev",
+    "c0.30js": "Classic 0.30",
+    "c0.30wasm": "Classic 0.30 WASM",
+    "classic": "Minecraft Classic",
+    "mcpe": "Minecraft PE",
+    "classicube": {
+        "name": "Classicube",
+        "disabled-userscripts": [
+            "mobile"
+        ]
+    },
+    "more": {
+        "section": "More",
+        "data": {
+            "mcraft": {
+                "name": "MCraft (PrismarineJS)",
+                "disabled-userscripts": [
+                    "mobile"
+                ]
+            },
+            "more": {
+                "section": "More Clients",
+                "data": {
+                    "pixel": {
+                        "section": "Pixel Client",
+                        "data": {
+                            "pixeljs": "Pixel Client",
+                            "pixelwasm": "Pixel Client WASM",
+                            "pixeljs12": "Pixel Client 1.12.2",
+                            "pixelwasm12": "Pixel Client 1.12.2 WASM"
+                        }
+                    },
+                    "wispcraft": {
+                        "section": "Wispcraft",
+                        "data": {
+                            "wispjs": "Wispcraft",
+                            "wispwasm": "Wispcraft WASM",
+                            "wispjs12": "Wispcraft 1.12.2",
+                            "wispwasm12": "Wispcraft 1.12.2 WASM"
+                        }
+                    },
+                    "resent4.0": "Resent Client",
+                    "shadow": "Shadow Client",
+                    "modded": {
+                        "section": "Modded Clients",
+                        "data": {
+                            "1.9": "EaglercraftL 1.9",
+                            "1.11": "EaglercraftZ 1.11.2",
+                            "starlikejs": "Starlike Client",
+                            "starlikewasm": "Starlike Client WASM",
+                            "eaglyjs": "EaglyMC",
+                            "eaglywasm": "EaglyMC WASM",
+                            "winston": "Winston Horror Mod"
+                        }
+                    }
+                }
+            },
+            "games": {
+                "section": "Other Games",
+                "data": {
+                    "fnaw": "FNAW",
+                    "mc2048": "Minecraft 2048"
+                }
+            },
+            "downloads": {
+                "section": "Downloads",
+                "css": "downloads",
+                "data": {
+                    "server": {
+                        "section": "Server",
+                        "data": {
+                            "eagxserver": {
+                                "name": "EaglerXServer",
+                                "download": "EaglerXServer.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagxrewind": {
+                                "name": "EaglerXRewind",
+                                "download": "EaglerXRewind.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagxbackendrpc": {
+                                "name": "EaglerXBackendRPC",
+                                "download": "EaglerXBackendRPC.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagmotd": {
+                                "name": "EaglerMOTD",
+                                "download": "EaglerMOTD.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagweb": {
+                                "name": "EaglerWeb",
+                                "download": "EaglerWeb.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagxplan": {
+                                "name": "EaglerXPlan",
+                                "download": "EaglerXPlan.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "eagxsupervisor": {
+                                "name": "EaglerXSupervisor",
+                                "download": "EaglerXSupervisor.jar",
+                                "downloadfolder": "downloads"
+                            },
+                            "originblacklist": {
+                                "name": "OriginBlacklist",
+                                "download": "OriginBlacklist.jar",
+                                "downloadfolder": "downloads"
+                            }
+                        }
+                    },
+                    "offline": {
+                        "section": "Offline Downloads",
+                        "css": "downloads-offline",
+                        "data": {
+                            "bundle": {
+                                "name": "Version Bundle",
+                                "download": "bundle",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.8js": {
+                                "name": "1.8.8",
+                                "download": "EaglercraftX_1.8.8_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.8wasm": {
+                                "name": "1.8.8 WASM",
+                                "download": "EaglercraftX_1.8.8_WASM.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.12js": {
+                                "name": "1.12.2",
+                                "download": "Eaglercraft_1.12.2_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.12wasm": {
+                                "name": "1.12.2 WASM",
+                                "download": "Eaglercraft_1.12.2_WASM.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.5": {
+                                "name": "1.5.2",
+                                "download": "Eaglercraft_1.5.2.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.6": {
+                                "name": "1.6.4",
+                                "download": "Eaglercraft_1.6.4.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "1.2.5": {
+                                "name": "1.2.5",
+                                "download": "Eaglercraft_1.2.5.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "b1.7.3": {
+                                "name": "Beta 1.7.3",
+                                "download": "Eaglercraft_b1.7.3.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "b1.4": {
+                                "name": "Beta 1.4",
+                                "download": "Eaglercraft_b1.4.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "b1.3": {
+                                "name": "Beta 1.3",
+                                "download": "Eaglercraft_b1.3.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "b1.1": {
+                                "name": "Beta 1.1",
+                                "download": "Eaglercraft_b1.1.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "a1.2.6": {
+                                "name": "Alpha 1.2.6",
+                                "download": "Eaglercraft_a1.2.6.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "a1.1.2js": {
+                                "name": "Alpha 1.1.2",
+                                "download": "Eaglercraft_a1.1.2_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "a1.0.6js": {
+                                "name": "Alpha 1.0.6",
+                                "download": "Eaglercraft_a1.0.6_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "infjs": {
+                                "name": "Infdev",
+                                "download": "Eaglercraft_Infdev_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "infwasm": {
+                                "name": "Infdev WASM",
+                                "download": "Eaglercraft_Infdev_WASM.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "idv": {
+                                "name": "Indev",
+                                "download": "Eaglercraft_Indev.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "c0.30js": {
+                                "name": "Classic 0.30",
+                                "download": "Eaglercraft_c0.30_JS.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "c0.30wasm": {
+                                "name": "Classic 0.30 WASM",
+                                "download": "Eaglercraft_c0.30_WASM.html",
+                                "downloadfolder": "downloads"
+                            },
+                            "clients": {
+                                "section": "Clients",
+                                "data": {
+                                    "pixel": {
+                                        "section": "Pixel Client",
+                                        "data": {
+                                            "pixeljs": {
+                                                "name": "Pixel Client",
+                                                "download": "PixelClient_JS.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "pixelwasm": {
+                                                "name": "Pixel Client WASM",
+                                                "download": "PixelClient_WASM.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "pixeljs12": {
+                                                "name": "Pixel Client 1.12.2",
+                                                "download": "PixelClient_1.12.2_JS.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "pixelwasm12": {
+                                                "name": "Pixel Client 1.12.2 WASM",
+                                                "download": "PixelClient_1.12.2_WASM.html",
+                                                "downloadfolder": "downloads"
+                                            }
+                                        }
+                                    },
+                                    "wispcraft": {
+                                        "section": "Wispcraft",
+                                        "data": {
+                                            "wispjs": {
+                                                "name": "Wispcraft",
+                                                "download": "Wispcraft_JS.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "wispwasm": {
+                                                "name": "Wispcraft WASM",
+                                                "download": "Wispcraft_WASM.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "wispjs12": {
+                                                "name": "Wispcraft 1.12.2",
+                                                "download": "Wispcraft_1.12.2.html",
+                                                "downloadfolder": "downloads"
+                                            },
+                                            "wispwasm12": {
+                                                "name": "Wispcraft 1.12.2 WASM",
+                                                "download": "Wispcraft_1.12.2_WASM_JS.html",
+                                                "downloadfolder": "downloads"
+                                            }
+                                        }
+                                    },
+                                    "resent": {
+                                        "name": "Resent Client",
+                                        "download": "Resent_4.0_patch1.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "1.9": {
+                                        "name": "EaglercraftL 1.9",
+                                        "download": "EaglercraftL_1.9.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "1.11": {
+                                        "name": "EaglercraftZ 1.11",
+                                        "download": "EaglercraftZ_1.11.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "starlikejs": {
+                                        "name": "Starlike Client",
+                                        "download": "Starlike_JS.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "starlikewasm": {
+                                        "name": "Starlike Client WASM",
+                                        "download": "Starlike_WASM.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "eaglyjs": {
+                                        "name": "EaglyMC",
+                                        "download": "EaglyMC_JS.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "eaglywasm": {
+                                        "name": "EaglyMC WASM",
+                                        "download": "EaglyMC_WASM.html",
+                                        "downloadfolder": "downloads"
+                                    },
+                                    "winston": {
+                                        "name": "Winston Horror Mod",
+                                        "download": "Winston_Horror.html",
+                                        "downloadfolder": "downloads"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "resourcepacks": {
+                        "section": "Resource Packs",
+                        "data": {
+                            "music": {
+                                "name": "Music",
+                                "download": "music.zip",
+                                "downloadfolder": "resourcepacks"
+                            },
+                            "colbster": {
+                                "name": "Colbster937's Pack",
+                                "download": "colbster.zip",
+                                "downloadfolder": "resourcepacks"
+                            },
+                            "prism-cottoncandy": {
+                                "name": "Prism (Cotton Candy)",
+                                "download": "prism-cottoncandy.zip",
+                                "downloadfolder": "resourcepacks"
+                            }
+                        }
+                    }
+                }
+            },
+            "tools": {
+                "section": "Tools",
+                "data": {
+                    "ayunwebepk": "ayunWebEPK"
+                }
+            }
+        }
+    },
+    "links": {
+        "section": "Links",
+        "css": "linksButton",
+        "data": {
+            "discord": {
+                "name": "Discord",
+                "url": "https://discord.gg/zwcJGuABME"
+            }
+        }
+    }
+}
