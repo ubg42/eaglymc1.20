@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>yee launcher</title>
+    <link rel="icon" href="data/icon2.png">
+    <link rel="stylesheet" href="data/style.css">
+    <link rel="stylesheet" href="data/button.css">
+    <link rel="stylesheet" href="data/mobile.css">
+    <link rel="manifest" href="data/manifest.json">
+    <meta name="description" content="Yee Launcher is a minimalistic Eaglercraft launcher built for speed."/>
+    <meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8, eaglercraft, eaglercraft minecraft, eaglercraft 3kh0, eaglercraft github, eaglercraft singleplayer, eaglercraft hacks, eaglercraft 1.8, eaglercraft server, eaglecraft game, eaglercraft alternative, eaglercraft alt links, eaglercraft asspixel, eaglercraft anarchy server, eaglercraft aeon, eaglercraft asspixel server ip, eaglercraft all links, eaglercraft aeon server, eaglercraft beta, eaglecraft boats, eaglecraft boats for sale, eaglecraft boats for sale bc, eaglecraft bedwars server, eaglecraft boats inc, eaglercraft beta servers, eaglercraft blocked, eaglercraft client, eaglecraft custom boats, eaglecraft campbell river, eaglercraft creative, eaglercraft commands, eaglercraft code, eaglercraft controls, eaglercraft com, eaglercraft download, eaglercraft discord, eaglercraft dupe glitch, eaglercraft download file, eaglercraft download google drive, eaglercraft dmca, eaglercraft deleted, eaglercraft down, eaglercraft embed, eaglercraft epk file download, eaglercraft end of stream, eaglecraft apk download, eaglecraft eagtek, eaglercraft exploit, eaglecraft eggs, eaglercraft epk world file download, eaglercraft file, eaglercraft file download, eaglercraft free, eaglercraft forums, eaglercraft fork, eaglercraft faq, eaglercraft fps, eaglecraft free download, eaglercraft github servers, eaglercraft google drive, eaglercraft github lax1dude, eaglercraft github download, eaglercraft github.io, eaglercraft google sites, minecraft, applet, singleplayer, replit, html5, chromebook, lax1dude, games, eaglercraft singleplayer, eagler, minecraft for free, free minecraft, unblocked games, school games, free games, online games, tortillagames, unblocked games for school, play games at school, school-friendly games, free online games, no blocked games, gaming website, fun games for school, safe games for school, browser games, Eaglercraft, Eaglercraft unblocked, play Eaglercraft, Eaglercraft games, unblocked Eaglercraft games, Minecraft alternatives, Eaglercraft school games, free Eaglercraft, unblocked Minecraft, multiplayer games, Eaglercraft online, free multiplayer games, browser Minecraft, free Eaglercraft server, Eaglercraft mods, gaming at school, unblocked browser games, school-friendly Eaglercraft, fun Eaglercraft for school, best school games, creative games for school, adventure games for school, multiplayer unblocked games, Eaglercraft free online, play Minecraft at school, Eaglercraft worlds, unblocked adventure games, sandbox games, Eaglercraft sandbox, school gaming site, Eaglercraft server list, unblocked survival games, play unblocked games, safe gaming at school, Eaglercraft unblocked Minecraft, Eaglercraft multiplayer, sandbox games for school, Eaglercraft custom servers, unblocked creative games, gaming website for school, fun school gaming, best unblocked games, Eaglercraft download, Eaglercraft setup, Eaglercraft mods download, Eaglercraft survival games, unblocked survival worlds, Eaglercraft gaming tips, play browser games, unblocked fun games, safe online gaming, Eaglercraft world building, free browser Minecraft, multiplayer sandbox games, unblocked browser Minecraft, free to play Eaglercraft, Eaglercraft maps, creative sandbox games, fun gaming website, unblocked multiplayer games, school browser games, Eaglercraft server hosting, fun school-friendly games, school-friendly browser games, free Eaglercraft downloads, Eaglercraft mods guide, unblocked fun at school, Eaglercraft safe play, unblocked school adventures, free Eaglercraft tools, creative Minecraft at school, best browser games, multiplayer unblocked Minecraft, sandbox unblocked games, creative school games, Minecraft browser unblocked, Eaglercraft multiplayer servers, Eaglercraft modpacks, Eaglercraft gameplay, fun sandbox worlds, browser-based Minecraft, Eaglercraft hacks, unblocked school sandbox, Minecraft alternatives unblocked, browser Eaglercraft servers, Eaglercraft worlds download, gaming websites for school, Eaglercraft server play, fun school sandbox games, Eaglercraft school-friendly mods, play school unblocked games, free Minecraft browser games, browser games for school, safe Eaglercraft servers, unblocked gaming platform, Eaglercraft education, Eaglercraft creative mode, Minecraft for school, school game servers, Minecraft unblocked access, browser-based Eaglercraft, school-friendly Eaglercraft downloads, multiplayer adventure games, Eaglercraft for school kids, school Minecraft play, sandbox education games, browser games sandbox, Minecraft Eaglercraft mods, unblocked creative gaming, Eaglercraft play free, safe sandbox games for school, fun multiplayer Eaglercraft, Eaglercraft for classrooms, Eaglercraft online servers, browser-based sandbox, free sandbox multiplayer, browser games Minecraft, safe games online, unblocked mods for school, free games for students, school games Minecraft, Eaglercraft server guides, Minecraft browser access, unblocked school Minecraft servers, free sandbox creativity, Eaglercraft survival guides, Eaglercraft online play, sandbox education tools, free Eaglercraft gaming, creative browser games, Eaglercraft modding, fun Eaglercraft servers."/>
+    <meta name="yee launcher" content="yee launcher"/>
+    <meta property="og:title" content="yee launcher"/>
+    <meta property="og:locale" content="en-US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="/data/icon2.png"/>
+    <meta property="og:description" content="Yee Launcher is a minimalistic Eaglercraft launcher built for speed."/>
+</head>
+<body>
+    <script src="data/script.js"></script>
+    <script src="data/settings.js"></script>
+    <script src="data/trialInjector.js"></script>
+    <script src="data/split.js"></script>
+    <script src="data/jszip.min.js"></script>
+    <script src="data/FileSaver.min.js"></script>
+    <script src="data/pwa-install.js"></script>
+    <script type="module">
+        if ('serviceWorker' in navigator) {
+            let swPath = "/sw.js";
+            let swScope = "/";
+            if (location.hostname.includes("discordsays.com")) {
+                swPath = `/.proxy${swPath}`;
+                swScope = "/.proxy/";
+            }
+            navigator.serviceWorker
+                .register(swPath, { scope: swScope })
+                .then((registration) => {
+                    console.log('Service Worker registered successfully:', registration);
+                    registration.update();
+                    registration.addEventListener('statechange', (e) => {
+                        if (e.target.state === 'activated') {
+                            window.location.reload();
+                        }
+                    });
+                })
+                .catch((error) => {
+                    console.error('Service Worker registration failed:', error);
+                });
+        }
+        const reg = await navigator.serviceWorker.ready
+        reg.update()
+    </script>
+    <script>
+        const konami = {
+            code: ["arrowup", "arrowup", "arrowdown", "arrowdown", "arrowleft", "arrowright", "arrowleft", "arrowright"],
+            time: 500,
+            func: () => {
+                localStorage.setItem("newPerformanceMode", !localStorage.getItem("newPerformanceMode") ? "true" : "false");
+                alert("Performance Mode " + localStorage.getItem("newPerformanceMode") ? "Enabled." : "Disabled.");
+                //document.documentElement.style.filter = document.documentElement.style.filter === "invert(100%)" ? "" : "invert(100%)";
+            }
+        }
+    </script>
+    <script src="data/konami.js"></script>
+    <iframe class="gameFrame"></iframe>
+    <div class="pwa-install" style="display: none;">
+        <div class="pwa-container">
+            <h2>The launcher experience is better with the app, install?</h1>
+            <button id="install" onclick="installApp()">Yes</button>
+            <button id="install-no" onclick="closePWAInstall(true)">No</button>
+        </div>
+    </div>
+    <div class="settings-container" style="display: none;">
+        <div class="settings-inner">
+            <h2>Settings</h1>
+            <img src="data/x.png" draggable="false" onclick="exitSettings()"></img>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="mcText">yee launcher <img class="settingsIcon" src="data/settings.png" draggable="false" onclick="showSettings()"></img></h1>
+        <h2 class="errorText error"></h2>
+        <div class="launcher">
+            <!--<label>
+                <input type="checkbox"></input>
+                Performance Mode
+            </label>-->
+        </div>
+    </div>
+</body>
+</html>
